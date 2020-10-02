@@ -1,0 +1,11 @@
+[package]
+name = "clock"
+version = "0.1.0"
+authors = ["Johan Govers <johan.govers@technolution.nl>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ftdi-embedded-hal = { git = "https://github.com/geomatsi/ftdi-embedded-hal.git"}
+ds323x = "0.3.1"
